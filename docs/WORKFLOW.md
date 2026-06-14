@@ -41,7 +41,8 @@ Use openclaw-pr-workflow. Phase 0.
 Use openclaw-pr-workflow. Phase 2 OpenClaw.
 Use openclaw-pr-workflow. Phase 3 openclaw/openclaw#12345.
 Use openclaw-pr-workflow. Phase 12 <approved disposable run directory>.
-Use openclaw-pr-workflow. Phase 13 openclaw/openclaw#12345.
+Use openclaw-pr-workflow. Phase 13 STATE-GO for <issue-or-pr>.
+Use openclaw-pr-workflow. Phase 14 openclaw/openclaw#12345.
 ```
 
 The display folder is `Openclaw-PR Workflow/`. The skill invocation name is `openclaw-pr-workflow`.
@@ -518,7 +519,14 @@ Post-check:
 Next GO:
 ```
 
-### Phase 13: UPSTREAM-PR-REVIEW
+### Phase 13: HANDOFF / STATE
+
+Use this after publish/check/blocked/cleanup/abort when the local project state or handoff needs to be updated.
+
+It may only update operator-approved local state or handoff files. It must not change code, run tests, touch servers, commit, push, comment, label, rerun CI, or create/update PRs.
+
+Required output fields are: Issue, PR, Checkout, Branch, Latest commit, Work done, Proof, Publish, Cleanup, Open items, and Next safe step.
+### Phase 14: UPSTREAM-PR-REVIEW
 
 Purpose: review external or official OpenClaw PRs read-only for relevance and risk.
 
