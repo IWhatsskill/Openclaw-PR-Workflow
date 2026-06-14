@@ -111,13 +111,22 @@ Expected:
 - clear BLOCKED/UNCLEAR/FREE-REST
 - no patch/proof/GitHub write
 
+### Cleanup
+
+```text
+Use openclaw-pr-workflow. Phase 12 <approved disposable run directory>.
+Clean up only that exact disposable run directory. No wildcards, no parent/root cleanup.
+```
 ### Upstream PR Review
 
 ```text
-Use openclaw-pr-workflow. Phase 12 openclaw/openclaw#12345.
+Use openclaw-pr-workflow. Phase 13 openclaw/openclaw#12345.
 Read-only PR review. No patch, no checkout, no test server, no GitHub write.
 ```
 
 Expected:
 - relevance/risk for integrators or agent operators
 - recommendation: watch / test / wait / irrelevant
+
+
+
