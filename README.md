@@ -2,7 +2,7 @@
 
 **Safe phase-based workflow for OpenClaw pull request agents**
 
-This is a compact Codex skill for agents working on OpenClaw pull requests. It keeps PR work split into explicit phases so an agent can scout, inspect, patch, prove, and publish without jumping ahead.
+This is a compact workflow skill for agents working on OpenClaw pull requests. It keeps PR work split into explicit phases so an agent can scout, inspect, patch, prove, and publish without jumping ahead.
 
 Use it when you want careful OpenClaw PR work with read-only discovery first, operator approval between phases, and reusable templates for proof notes and PR bodies.
 
@@ -30,7 +30,7 @@ Use it when you want careful OpenClaw PR work with read-only discovery first, op
 
 ## Quick Start
 
-Ask Codex to use the skill by name:
+Ask your OpenClaw agent to use the skill by name:
 
 ```text
 Use openclaw-pr-workflow. Phase 0.
