@@ -17,7 +17,7 @@ Use it when you want careful OpenClaw PR work with read-only discovery first, op
   &nbsp;|&nbsp;
   <a href="references/05-pr-body-template.md"><strong>PR body template</strong></a>
   &nbsp;|&nbsp;
-  <a href="references/07-maintainer-test.md"><strong>Maintainer test</strong></a>
+  <a href="references/07-skill-test.md"><strong>Skill test</strong></a>
 </p>
 
 ## What It Covers
